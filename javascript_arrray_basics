@@ -12,7 +12,7 @@ let slice_array = my_array.slice(1,3); //did not change the oriigional array
  let merge_one = [1,2,3,4];
  let merge_two = [5,6,7,8];
 
- let merge_array = merge_one.concat(merge_two);
+ let merge_array = merge_one.concat(merge_two); //anothoer method to merge 
  let another_mehod_merge = [...merge_one, ...merge_two];
  console.log("merged one", merge_array);
  console.log("merged two method", another_mehod_merge);
@@ -29,3 +29,6 @@ let score_2 = 200;
 let score_3 = 400;
 
 console.log(Array.of(score_1,score_2,score_3));
+
+// hr@zaptatech.com
+// hr@codesorbit.com

@@ -124,7 +124,7 @@ console.log(check_quiz);
 
 
 // DEEP COPY DO NOT SHARE THE SAME REFRRENCE 
-// SHALLOW COPY SHARE THE SASME refrence
+// SHALLOW COPY SHARE THE SASME refrence aarray do shallow copy
 
 const data_array = new Array(1,2,4);
 console.log(data_array);
